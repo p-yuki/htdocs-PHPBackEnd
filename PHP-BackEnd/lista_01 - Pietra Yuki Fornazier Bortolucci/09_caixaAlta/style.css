@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0ff;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p{
+    color: blue;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: 2px solid #e2dd4b;
+    border-radius: 10px;
+    background-color: #fcfcdf;
+    padding: 20px;
+    display: inline-block;
+}

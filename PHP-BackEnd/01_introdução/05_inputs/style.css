@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(56, 56, 56);
+    margin-left: 38%;
+    margin-top: 120px;
+    color: white;
+    text-align: center;
+}
+
+div input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+
+}
+
+.calcular input {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.calcular input:hover {
+    background-color: darkcyan;
+}
+
+label {
+    font-weight: bold;
+    font-size: larger;
+}

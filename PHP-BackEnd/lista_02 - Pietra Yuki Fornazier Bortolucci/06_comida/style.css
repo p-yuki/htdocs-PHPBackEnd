@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(233, 153, 180);
+    outline: 10px solid rgb(229, 132, 164);
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.container h1 {
+    margin-bottom: 5px;
+    color: white;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form .dados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dados {
+    color: white;
+}
+
+.dados label {
+    margin-bottom: 4px;
+    color: white;
+    font-size: 14px;
+}
+
+.dados input {
+    width: 240px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.dados input::placeholder {
+    padding: 2px;
+}
+
+.btn input {
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.btn input:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.resultado {
+    margin-top: 30px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.resultado p {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
